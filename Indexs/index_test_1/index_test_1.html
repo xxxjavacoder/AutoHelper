@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests of PAS</title>
+
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<img id="icon" src="icon.png">
+
+<h1 id="Head">Pocket Auto Service</h1>
+
+<h2 id="Title">Тесты для диагностики проблем авто</h2>
+
+<!-- QUESTION 1 -->
+<div class="card">
+<p class="question">Горит ли лампочка аккамуоятора?</p>
+
+<input type="radio" class="answer" name="r1" value = "1">Yes</input>
+
+<input type="radio" class="answer" name="r1" value = "0">No </input>
+</div>
+<!-- QUESTION 2 -->
+<div class="card">
+<p class="question">Крутит ли стартер?</p>
+
+<input type="radio" class="answer" name="r2" value = "1">Yes</input>
+
+<input type="radio" class="answer" name="r2" value = "0">No </input>
+</div>
+<!-- QUESTION 3 -->
+<div class="card">
+<p class="question">Есть ли искра в свечах зажигания?</p>
+
+<input type="radio" class="answer" name="r3" value = "1">Yes</input>
+
+<input type="radio" class="answer" name="r3" value = "0">No </input>
+</div>
+<!-- QUESTION 4 -->
+<div class="card">
+<p class="question">Присуцтвует ли топливо в баке?</p>
+
+<input type="radio" class="answer" name="r4" value = "1">Yes</input>
+
+<input type="radio" class="answer" name="r4" value = "0">No </input>
+</div>
+<!-- QUESTION 5 -->
+<div class="card">
+<p class="question">Доходит ли топливо до форсунок двигателя?</p>
+
+<input type="radio" class="answer" name="r5" value = "1">Yes</input>
+
+<input type="radio" class="answer" name="r5" value = "0">No </input>
+</div>
+
+<br>
+<p id="output"></p>
+<br>
+
+<button onclick="check()" class="top_b" id="check_b">Check</button>
+
+<button class="top_b" id="test_b"
+        onclick="document.location='/AutoService/Indexs/index_main/index_main.html'" >Main</button>
+
+<footer>
+
+</footer>
+<script src = script.js></script>
+</body>
+</html>

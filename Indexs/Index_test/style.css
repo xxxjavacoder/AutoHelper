@@ -1,0 +1,57 @@
+#Head{
+    font: message-box;
+    color: black;
+    font-size: xx-large;
+    float: left;
+    margin-top: 30px;
+}
+
+#icon {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.top_b{
+    font: -apple-system-body;
+    font-size: large;
+    background: white;
+    border: black;
+    color: black;
+    margin-top: 70px;
+    margin-left: 5px;
+    user-select: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 45px;
+}
+.top_b:hover {background: black; color: white}
+
+
+#Title{
+    font: message-box;
+    color: black;
+    font-size: xx-large;
+    float: left;
+    margin-left: 140px;
+}
+
+.about_tests{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font: -apple-system-body;
+    font-size: x-large;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+

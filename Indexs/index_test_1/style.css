@@ -1,0 +1,83 @@
+#Head{
+    font: message-box;
+    color: black;
+    font-size: xx-large;
+    float: left;
+}
+
+#icon {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.top_b{
+    font: -apple-system-body;
+    font-size: large;
+    background: white;
+    border: black;
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+    user-select: none;
+    outline: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+.top_b:hover {background: black; color: white}
+
+#test_b{
+    margin-left: 45px;
+}
+
+#Title{
+    font: message-box;
+    color: black;
+    font-size: xx-large;
+    float: left;
+    margin-left: 140px;
+    margin-bottom: 150px;
+}
+
+
+.question{
+    margin-left: 200px;
+}
+
+.answer{
+    margin-left: 20px;
+}
+
+#check_b {
+    margin-left: 500px;
+    margin-bottom: 200px;
+    width: 200px;
+    height: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    width: 700px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+#output{
+    font-size: large;
+    margin: 50px 400px;
+    font: message-box;
+}
+
+
+
